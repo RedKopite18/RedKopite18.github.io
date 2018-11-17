@@ -1,0 +1,232 @@
+body{
+    background-image:url(https://pro2-bar-s3-cdn-cf1.myportfolio.com/31e1bfa92d5fac7320f7093b51b8d385/279d9871-421f-49c7-8dc7-424620380f87_rw_3840.jpg?h=fe98f958076b56a6cecb4815a6a12190);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    font-family: 'Advent Pro';
+}
+
+.circle{
+    width: 180px;
+    height: 180px;
+    background: #606060;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin-left: 42.9%;
+    margin-top: 90px;
+    opacity: 0.90;
+}
+.content{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 35%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+    border-bottom: groove;
+    border-bottom-color: black;
+    border-bottom-width: thin;  
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.content h1{
+    font-size: 30px;
+}
+.content-2{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 95%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Advent Pro';
+}
+nav ul{
+    float: right;
+    padding-right: 250px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    word-spacing: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+li{
+    display: inline;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+a:hover{
+    color: lightgray;
+    transition: 0.4s;
+}
+.button {
+    display: inline-block;
+    border-radius: none;
+    background-color: transparent;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left-color: white;
+    border-right-color: white;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: -4.5%;
+}
+.button span {
+    font-family: 'Advent Pro';;
+    font-size: 18px;
+    text-shadow: 2px 3px black;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+    color: white;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button-main{
+    text-align: center; 
+    margin-top: 90px; 
+}
+* {
+    box-sizing:border-box;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 200px;
+    background-color:#404040;
+    height: 156px;
+    padding-top: 0;
+    opacity: 0.9;
+    word-spacing: 1px;
+    font-family: arial;
+    font-size: 15.5px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    padding-top: 20%;
+    margin-right: -70%;
+    margin-left: -0.5%;
+}
+h3{
+    height: 11px;
+    margin-left: -100px;
+    color: white;
+}
+p{
+     margin-left: -100px;
+     color: white;
+}
+html, body{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.column2{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 250px;
+    background-color:#404040;
+    height: 156px;
+    padding-top: 0;
+    opacity: 0.9;
+    word-spacing: 1px;
+    font-family: arial;
+    font-size: 15.5px;
+}
+.column3 {
+    float: left;
+    width: 20%;
+    padding-left: 15%;
+    background-color:#404040;
+    height: 156px;
+    padding-top: 0;
+    opacity: 0.9;
+    font-family: arial;
+    font-size: 15.5px;   
+}
+.fa {
+    padding: 9px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook{
+    background: white;
+    color: #404040;
+    margin-left: -100px;
+    opacity: 0.8;
+}
+.fa-facebook:hover{
+    color: #3B5998;
+}
+.fa-twitter{
+    background: white;
+    color: #404040;
+    opacity: 0.8;
+}
+.fa-twitter:hover{
+    color: #55ACEE;
+}
+.fa-instagram {
+    background: white;
+    color: #404040;
+    opacity: 0.8;
+}
+.fa-instagram:hover{
+    color: #125688;
+}
+.fa-snapchat-ghost {
+    background: white;
+    color: #404040;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 0.8;
+}
+.fa-snapchat-ghost:hover{
+    color: #fffc00;
+}
